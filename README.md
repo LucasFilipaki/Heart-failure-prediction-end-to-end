@@ -23,7 +23,7 @@ It can also be found on Kaggle using the following link: https://www.kaggle.com/
 
 ### Goal
 
-> We aiming to reach scores of +90% accuracy in a model at predicting whether a patient has or not heart disease.
+> We aim to reach scores of +90% accuracy in a model for predicting whether a patient has or not heart disease.
 
 ### Evaluation Metric
 
@@ -40,7 +40,7 @@ For the proper evaluation we will make use of:
 Age: age of the patient [years] -> All adults between 27 and 77 years.
 Sex: sex of the patient [M: Male, F: Female]
 ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
-RestingBP: resting blood pressure [mm] -> Unfortunatelly, we only have the systolic data.
+RestingBP: resting blood pressure [mm] -> Unfortunately, we only have the systolic data.
 Cholesterol: serum cholesterol [mm/dl]
 FastingBS: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
 RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
@@ -51,7 +51,7 @@ ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, 
 HeartDisease: output class [1: heart disease, 0: Normal]
 
 ### Tools
-We're going to use pandas, Matplotlib and NumPy for data analysis and manipulation. We'll work with the following algorithms:
+We're going to use pandas, Matplotlib, and NumPy for data analysis and manipulation. We'll work with the following algorithms:
 
 * RandomForestClassifer
 * LogisticRegression
